@@ -117,9 +117,9 @@ kind: Route
 apiVersion: route.openshift.io/v1
 metadata:
   name: quake
-  namespace: adolfobenedetti-1-dev
+  namespace: christiaankick-dev
 spec:
-  host: quake-adolfobenedetti-1-dev.apps.sandbox.x8i5.p1.openshiftapps.com
+  host: christiaankick-dev.apps.sandbox-m2.ll9k.p1.openshiftapps.com
   to:
     kind: Service
     name: quake
